@@ -94,7 +94,6 @@ func (tui *TUI) setupAlertsPageInput() {
 				utils.InfoLogger.Print("Refreshing alerts...")
 				tui.SeedAlertsUI()
 			}
-
 			return event
 		})
 	}

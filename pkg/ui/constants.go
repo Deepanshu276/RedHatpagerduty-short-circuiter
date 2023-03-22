@@ -40,7 +40,7 @@ const (
 	FooterTextIncidents       = "[ENTER] Select Incident  | [CTRL+A] Acknowledge Incidents\n" + FooterText
 	FooterTextOncall          = "[N] Your Next Oncall Schedule | [A] All Teams Oncall\n" + FooterText
 
-	// Colors
+	//Colors
 	TableTitleColor = tcell.ColorLightCyan
 	BorderColor     = tcell.ColorLightGray
 	FooterTextColor = tcell.ColorGray

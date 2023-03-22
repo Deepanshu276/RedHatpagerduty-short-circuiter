@@ -62,7 +62,6 @@ func (tui *TUI) SetIncidentsTableEvents() {
 				break
 			}
 		}
-
 		if len(alerts) == 1 {
 			alertData = pdcli.ParseAlertMetaData(Alert)
 			tui.AlertMetadata.SetText(alertData)
